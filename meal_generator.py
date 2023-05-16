@@ -4,10 +4,11 @@ import random
 # List of meal titles
 meal1 = ["Pro-Oatmeal", "Fruit and Cottage Cheese", "Berry Protein Smoothie", "Bagel and Lox", "Egg White and Fruit Plate", "Egg White Breakfast Wrap", "Bowl of Cereal", "Peanut Butter Toast", "Veggie Omlet"]
 meal2 = ["Mexican Style Eggs", "Protein Pancakes", "Warm Cereal Bowl", "Egg Sandwhich", "Protein Omlet", "Vanilla-Berry Protein Shake", "Yogurt Bowl", "Nutrition Bar", "Deli Sandwich", "Turkey BLT"]
-meal3 = ["Grilled Chicken Salad", "Sushi Roll", "Black Bean Soup and Half Sandwich", "Roast Beef Sandwich", "Teriyaki Grilled Tuna", "Chicken Ranch Wrap", "Lean Burger", "Whole Wheat Past With Vegtables and Feta", "Salmon Nicoise Plate"]
+meal3 = ["Grilled Chicken Salad", "Sushi Roll", "Black Bean Soup and Half Sandwich", "Roast Beef Sandwich", "Teriyaki Grilled Tuna", "Chicken Ranch Wrap", "Lean Burger", "Whole Wheat Pasta With Vegtables and Feta", "Salmon Nicoise Plate"]
 meal4 = ["Sashimi", "Cold Cut Platter", "Peanut Butter and Jelly", "Tuna Salad In A Tomato", "Turkey Lettuce Wrap and Bean Salad", "Turkey Chili", "Protein Pizza Muffin", "Shrimp Cocktail Platter", "Rotisserie Chicken And Salad", "Roast Beef Wrap"]
 meal5 = ["Baked Cod With Steamed Carrots, Corn, and Cauliflower", "Dinner Omlet", "Steak With Broccoli", "Chicken Meatballs", "Grilled Salmon With Asparagus", "Citrus Baked Chicken With Glazed Carrots", "Brown Rice Bowl", "Turkey Burger", "Chicken Stir Fry With Broccoli, Mushrooms, And Snow Peas", "Pasta With Seafood Marinara"]
 
+print("########################################")
 def meals_for_the_week():
 # Print the meals randomly
     for meal in meal1:
